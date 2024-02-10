@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.nav-bar {
+  padding: 15px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+}
+@media screen and (max-width: 767px) {
+  .nav-bar {
+    padding: 10px;
+  }
+  .nav-container {
+    margin: 10px;
+  }
+}
+.logo {
+  width: 70px;
+  cursor: pointer;
+  outline: none;
+}
+.popup-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 80vh;
+}
+.close-nav {
+  height: 10vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.close-icon {
+  margin: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.popup-menu {
+  padding: 0px;
+}
+.item-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #000000;
+}
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.menu-text {
+  font-family: 'Roboto';
+  line-height: 0.5;
+  font-size: 30px;
+}
+.icon-button {
+  border: none;
+  background-color: inherit;
+  outline: none;
+  cursor: pointer;
+}
